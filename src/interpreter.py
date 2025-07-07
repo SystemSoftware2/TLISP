@@ -48,7 +48,7 @@ style = Style.from_dict({
 })
 
 lexers.LEXERS['TLISP'] = (
-    'evaluate.py',
+    'interpreter.py',
     'TLISPLexer',
     'TLISP',
     ('tlisp',),
